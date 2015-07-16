@@ -14,9 +14,9 @@
 		473BFD151B0E633E005C686B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 473BFD141B0E633E005C686B /* Images.xcassets */; };
 		473BFD181B0E633E005C686B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 473BFD161B0E633E005C686B /* LaunchScreen.xib */; };
 		473BFD241B0E633E005C686B /* FarkleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 473BFD231B0E633E005C686B /* FarkleTests.m */; };
-		473BFD2F1B0E6388005C686B /* DieLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 473BFD2E1B0E6388005C686B /* DieLabel.m */; };
 		47EF7D701B14A37400146790 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF7D6F1B14A37400146790 /* PlayerViewController.m */; };
 		47EF7D731B14A3CF00146790 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF7D721B14A3CF00146790 /* Player.m */; };
+		47EF7DA81B14DBE500146790 /* DieLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF7DA71B14DBE500146790 /* DieLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,12 +43,12 @@
 		473BFD1D1B0E633E005C686B /* FarkleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarkleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		473BFD221B0E633E005C686B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		473BFD231B0E633E005C686B /* FarkleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FarkleTests.m; sourceTree = "<group>"; };
-		473BFD2D1B0E6388005C686B /* DieLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DieLabel.h; path = ../DieLabel.h; sourceTree = "<group>"; };
-		473BFD2E1B0E6388005C686B /* DieLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DieLabel.m; path = ../DieLabel.m; sourceTree = "<group>"; };
 		47EF7D6E1B14A37400146790 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
 		47EF7D6F1B14A37400146790 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
 		47EF7D711B14A3CF00146790 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		47EF7D721B14A3CF00146790 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		47EF7DA61B14DBE500146790 /* DieLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DieLabel.h; sourceTree = "<group>"; };
+		47EF7DA71B14DBE500146790 /* DieLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DieLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +92,8 @@
 			children = (
 				473BFD0B1B0E633E005C686B /* AppDelegate.h */,
 				473BFD0C1B0E633E005C686B /* AppDelegate.m */,
-				473BFD2D1B0E6388005C686B /* DieLabel.h */,
-				473BFD2E1B0E6388005C686B /* DieLabel.m */,
+				47EF7DA61B14DBE500146790 /* DieLabel.h */,
+				47EF7DA71B14DBE500146790 /* DieLabel.m */,
 				47EF7D711B14A3CF00146790 /* Player.h */,
 				47EF7D721B14A3CF00146790 /* Player.m */,
 				47EF7D6E1B14A37400146790 /* PlayerViewController.h */,
@@ -235,8 +235,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				473BFD101B0E633E005C686B /* ViewController.m in Sources */,
+				47EF7DA81B14DBE500146790 /* DieLabel.m in Sources */,
 				473BFD0D1B0E633E005C686B /* AppDelegate.m in Sources */,
-				473BFD2F1B0E6388005C686B /* DieLabel.m in Sources */,
 				473BFD0A1B0E633E005C686B /* main.m in Sources */,
 				47EF7D731B14A3CF00146790 /* Player.m in Sources */,
 				47EF7D701B14A37400146790 /* PlayerViewController.m in Sources */,
